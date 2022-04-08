@@ -1,0 +1,18 @@
+
+static int topbar = 1;
+static int centered = 1;
+static int min_width = 500;
+static const unsigned int border_width = 1;
+static const char *fonts[] = {
+	"Source Code Pro:size=10:antialias=true:autohint=true"
+};
+static const char *prompt      = NULL;
+static const char *colors[SchemeLast][2] = {
+	/*     fg         bg       */
+	[SchemeNorm] = { "#e0e4b0", "#222222" },
+	[SchemeSel] = { "#222222", "#67c394" },
+	[SchemeOut] = { "#000000", "#00ffff" },
+};
+static unsigned int lines      = 9;
+static const char worddelimiters[] = " ";
+
