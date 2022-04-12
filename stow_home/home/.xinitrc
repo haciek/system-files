@@ -4,7 +4,6 @@ typeset -U PATH path
 sxhkd &
 dunst &
 picom -b &
-pulseaudio -D &
 
 wallpaper.sh &
 remaps.sh &
@@ -12,4 +11,5 @@ remaps.sh &
 flameshot &
 librewolf &
 
+pulseaudio -D
 exec awesome
