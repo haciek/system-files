@@ -1,6 +1,6 @@
 typeset -U PATH path
 
-export PATH=$PATH:$HOME/Scripts/:$HOME/Scripts/status/:$HOME/.local/bin:/usr/bin/python3
+export PATH=$PATH:$HOME/Scripts/:$HOME/Scripts/status/:$HOME/.local/bin:/usr/bin/python3:$HOME/.emacs.d/bin
 
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
 export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
@@ -19,9 +19,9 @@ export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export GTK_THEME='Adwaita:dark'
 export LANG='en_US.UTF-8'
 export EDITOR='nvim'
-export BROWSER='librewolf'
+export BROWSER='qutebrowser'
 export TERMINAL='alacritty'
 export READER='zathura'
-export PLAYER='mpv --profile=low-latency --untimed'
+export PLAYER='mpv'
 
 export LS_COLORS

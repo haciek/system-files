@@ -44,7 +44,7 @@ SAVEHIST=69420
 PS1=" %F{yellow}%~%F{green}%B>%b%F{yellow}%B$%b%f "
 LS_COLORS="fi=0;36:di=1;32:ex=4;33"
 
-LC_ALL=C cowsay $(fortune)
+LC_ALL=C cowsay $(fortune) | lolcat
 # neofetch
 # eval "$(starship init zsh)"
 

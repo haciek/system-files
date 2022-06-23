@@ -1,16 +1,16 @@
 
-local theme_assets	    = require("beautiful.theme_assets")
-local xresources	    = require("beautiful.xresources")
-local gfs		    = require("gears.filesystem")
-local themes_path	    = gfs.get_themes_dir()
-local dpi	            = xresources.apply_dpi
+local theme_assets          = require("beautiful.theme_assets")
+local xresources            = require("beautiful.xresources")
+local gfs                   = require("gears.filesystem")
+local themes_path           = gfs.get_themes_dir()
+local dpi                   = xresources.apply_dpi
 
 local theme = {}
 
 theme.font                  = "FiraCode Light 9"
 
-theme.useless_gap           = dpi(5)
-theme.border_width          = dpi(2)
+theme.useless_gap           = dpi(8)
+theme.border_width          = dpi(1)
 
 local primary_sel           = "#67c394" -- Bright Green
 local primary_norm          = "#566349" -- Dark Green
@@ -24,12 +24,14 @@ theme.border_marked         = "#91231c" -- Default
 -- Taskbar
 theme.bg_normal             = background
 theme.bg_focus              = primary_sel
-theme.bg_minimize           = primary_norm
+-- theme.bg_minimize           = primary_norm
+theme.bg_minimize           = background
 theme.bg_urgent             = "#dd7186" -- Default // Red
 
 theme.fg_normal             = primary_sel
 theme.fg_focus              = background
-theme.fg_minimize           = background
+-- theme.fg_minimize           = background
+theme.fg_minimize           = primary_norm
 theme.fg_urgent             = "#ffffff" -- Default
 
 theme.tasklist_bg_focus     = background
@@ -43,6 +45,8 @@ theme.taglist_squares_sel   = primary_norm
 -- Systray
 theme.bg_systray            = background
 
+
+theme.tasklist_disable_task_name = { true }
 
 
 -- There are other variable sets

@@ -11,5 +11,7 @@ remaps.sh &
 flameshot &
 librewolf &
 
-pulseaudio -D
+# pulseaudio -D&
+eval $(gnome-keyring-daemon --start)
+export SSH_AUTH_SOCK
 exec awesome

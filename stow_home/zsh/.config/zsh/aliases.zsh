@@ -9,25 +9,26 @@ alias cp="cp -v"
 alias rm="rm -v"
 
 alias v='nvim'
-alias vf='vifm'
 alias V="sudoedit"
 alias f='xdg-open $(fzf) > /dev/null 2>&1'
 alias r="ranger"
-alias R="sudo ranger"
 alias news="newsboat -r"
 alias pacman="sudo pacman"
-alias alpine="alpine -p ~/.config/alpine/.pinerc"
 
-alias zzz="sudo zzz"
-alias reboot="sudo reboot"
-alias poweroff="sudo poweroff"
+alias suspend="systemctl suspend"
+alias reboot="systemctl reboot"
+alias poweroff="systemctl poweroff"
 
-alias scr="$HOME/doc/scripts"
-alias notes="$HOME/doc/notes"
-alias files="$HOME/doc/files"
-alias latex="$HOME/doc/latex"
-alias code="$HOME/doc/code"
-alias pdfs="$HOME/doc/pdfs"
-alias pics="$HOME/doc/pics"
-alias vids="$HOME/doc/vids"
-alias dl="$HOME/doc/dl"
+# ~ < unused > ~
+# alias scr="$HOME/doc/scripts"
+# alias notes="$HOME/doc/notes"
+# alias files="$HOME/doc/files"
+# alias latex="$HOME/doc/latex"
+# alias code="$HOME/doc/code"
+# alias pdfs="$HOME/doc/pdfs"
+# alias pics="$HOME/doc/pics"
+# alias vids="$HOME/doc/vids"
+# alias dl="$HOME/doc/dl"
+# alias vf='vifm'
+# alias R="sudo ranger"
+# alias alpine="alpine -p ~/.config/alpine/.pinerc"
