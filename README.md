@@ -1,10 +1,10 @@
-# system-files
+# .dotfiles
 
 My general Linux .files
 
 ## Quick setup:
 
-> git clone 'https://www.github.com/haciek/system-files.git'
+> git clone 'https://www.github.com/haciek/.dotfiles.git'
 >
 > cd system-files/stow_home/
 >
